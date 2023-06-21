@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lunchpicture">
+
+    <TextView
+        android:id="@+id/lunch"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="680dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="Lunch Meals"
+        android:background="#808080"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/lunch_meal_one"
+        android:layout_width="405dp"
+        android:layout_height="355dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="294dp"
+        android:background="#808080"
+        android:gravity="center"
+        android:scrollbars="vertical"
+        android:text="Meal1 \n preperation
+\n1.Poke holes in the potato with a fork, then rub with oil and salt.
+\n2.Place the bacon slices on the same plate as the potato, microwave for 7-9 minutes until the bacon is crispy and the potato is tender. Make sure the bacon does not burn.
+\n3.Crumble the bacon after it’s cooled down.
+\n4.Slice the potato in half, then use a fork to fluff up the insides.
+\n5.Sprinkle the cheese on top, then microwave for another 30 seconds.
+\n6.Top with sour cream, the crushed bacon bits, and the chives.
+\n7.Enjoy!"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+</RelativeLayout>

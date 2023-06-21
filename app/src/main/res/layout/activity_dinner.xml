@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dinner">
+
+    <TextView
+        android:id="@+id/breakfast"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="680dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="Dinner meals"
+        android:background="#808080"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/dinner_meal_one"
+        android:layout_width="405dp"
+        android:layout_height="355dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="266dp"
+        android:background="#808080"
+        android:gravity="center"
+        android:scrollbars="vertical"
+        android:text="1. Preheat oven to 350˚F (180˚C).
+\n2.In a large pot over medium-high heat, melt the butter.
+\n3.Add the onion, stir until softened. About 1 minute.
+\n4.Whisk in the flour, stirring constantly to prevent the flour from browning. About 1 minute.
+\n5.Whisk in the chicken broth, salt, and pepper. Continue to whisk until no lumps remain.
+\n6.Whisk in the heavy cream. Bring to a light simmer until the sauce has thickened slightly. Test for additional salt/pepper.
+\n7.Add the mixed vegetables and shredded chicken, stir until fully incorporated.
+\n8.Transfer to a 9x13-inch (23x33 cm) baking dish.
+\n9.Evenly top with 12 pieces of biscuit dough (you will have extra biscuits, which can be baked off separately).
+\n10.Bake in a preheated oven for 20 minutes, until the biscuits are golden and the gravy mixture is bubbling.
+\n11.Cool slightly before serving.
+\n12.Enjoy!"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+</RelativeLayout>

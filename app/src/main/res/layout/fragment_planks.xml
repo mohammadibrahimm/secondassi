@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D7F6C7"
+    tools:context=".Planks">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="397dp"
+        android:layout_height="82dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="-2dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text=" planks
+"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.003"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/planks2"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="183dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text=" 1. Begin in a pushup position with your hand and toes firmly planted on the ground, your back straight, and your core tight."
+        android:textAllCaps="true"
+        android:textColor="#090808"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="338dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="142dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text=" 2.Keep your chin slightly tucked and your gaze just in front of your hands.
+."
+        android:textAllCaps="true"
+        android:textColor="#1A1919" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="406dp"
+        android:layout_height="33dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="96dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text=" 3.Take deep, controlled breaths while maintaining tension throughout your entire body, so your abs, shoulders, triceps, glutes, and quads are all engaged..."
+        android:textAlignment="viewStart"
+        android:textAllCaps="true"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="409dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="52dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text=" 4.Complete 2-3 sets of 30-second holds to start."
+        android:textAllCaps="true"
+        android:textColor="#000000" />
+
+
+</RelativeLayout>

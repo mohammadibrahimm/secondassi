@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gym">
+
+<!--    Tittle for Workout Section-->
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="109dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        android:text="Workout Section"
+        android:textSize="30sp" />
+
+<!--    breaker for the title and buttons-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"
+        android:layout_below="@+id/text"/>
+
+<!-- Plank Button -->
+    <Button
+        android:paddingTop="5dp"
+        android:id="@+id/planks"
+        android:layout_below="@+id/pushups"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:text="Planks" />
+
+    <!-- pushups Button -->
+    <Button
+        android:paddingTop="5dp"
+        android:id="@+id/pushups"
+        android:labelFor="@+id/planks"
+        android:layout_below="@+id/lungs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:text="pushups" />
+
+    <!-- row Button -->
+    <Button
+        android:paddingTop="5dp"
+        android:id="@+id/gultbridge"
+        android:layout_below="@+id/squat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:text="Gult Bridge" />
+
+    <!-- squat Button -->
+    <Button
+        android:paddingTop="5dp"
+        android:id="@+id/squat"
+        android:layout_below="@+id/planks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:text="squat" />
+
+    <!-- lungs Button -->
+    <Button
+        android:paddingTop="5dp"
+        android:id="@+id/lungs"
+        android:layout_below="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:text="lungs" />
+
+
+</RelativeLayout>

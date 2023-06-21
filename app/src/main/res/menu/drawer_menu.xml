@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="Navigation_view">
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_workout"
+            android:icon="@drawable/ic_workouts"
+            android:title="@string/workout" />
+
+        <item
+            android:id="@+id/nav_diet"
+            android:icon="@drawable/ic_diet"
+            android:title="@string/diet" />
+
+        <item
+            android:id="@+id/nav_contactus"
+            android:icon="@drawable/ic_contactus"
+            android:title="@string/contact_us" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/settings" />
+    </group>
+
+    <item android:title="@string/signout">
+        <menu>
+            <item
+                android:id="@+id/nav_signout"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/sign_out" />
+        </menu>
+    </item>
+
+
+</menu>

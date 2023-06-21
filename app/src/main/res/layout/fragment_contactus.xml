@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+
+    <TextView
+        android:id="@+id/Phone"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginBottom="80dp"
+        android:text="Email: FitTrack@live.com"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.014"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="204dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="40dp"
+        android:text="Phone: 0534957876"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.014"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:elevation="2dp"
+        android:layout_width="96dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="431dp"
+        app:layout_constraintBaseline_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/divider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.009"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/squat" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="96dp"
+        android:layout_height="134dp"
+        android:layout_marginBottom="423dp"
+        app:layout_constraintBaseline_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/divider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.996"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/deadlift" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="412dp"
+        android:layout_height="18dp"
+        android:layout_marginBottom="146dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.339"
+        android:backgroundTint="@color/black"
+        android:outlineAmbientShadowColor="@color/black"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/journey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="288dp"
+        android:text="our app is built with the help of experienced Gym trainers, personal coaches, and nutritionists, our app aims not to only give you the best training out there, but help you with the journey too, it will help you understand the basic needs of every exercise with a detailed explination to follow your every step.
+
+"
+        android:background="#5A5A5A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/diet"
+        android:layout_width="410dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="16dp"
+        android:background="#5A5A5A"
+        android:text="once you're done with excesicing you have to have a balanced diet to help you achieve your goal, we offer multiple meals and how to prepare them, follow simple steps and make delicious food!"
+        app:layout_constraintBottom_toTopOf="@+id/journey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:gravity="center"
+
+        android:text="Welcome to our FitTrack App!"
+        android:background="@color/design_default_color_primary"
+        app:layout_constraintBottom_toTopOf="@+id/diet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="111dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="36dp"
+        android:text="YOUR JOURNEY TO SUCCESS"
+        android:gravity="center"
+        android:elevation="10dp"
+        android:textColor="#FF0000"
+        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

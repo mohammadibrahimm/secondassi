@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/breakfast">
+
+    <TextView
+        android:id="@+id/breakfast"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="680dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="Breakfast Meals"
+        android:background="#808080"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/meal_one"
+        android:layout_width="405dp"
+        android:layout_height="355dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="295dp"
+        android:background="#808080"
+        android:gravity="center"
+        android:scrollbars="vertical"
+        android:text="Meal1 \n Ingredients \n Preheat oven to 375°. In a large skillet, cook sausage over medium heat 6-8 minutes or until no longer pink, breaking it into crumbles; drain. Unroll crescent roll dough into a greased 13x9-in. baking dish. Seal seams and perforations. Sprinkle with sausage and cheese.
+In a large bowl, whisk eggs, milk, salt and pepper. Pour over sausage and cheese.
+Bake, uncovered, 35-40 minutes or until a knife inserted in the center comes out clean. Let stand 5-10 minutes before serving.
+To make ahead: Refrigerate unbaked casserole, covered, several hours or overnight. To use, preheat oven to 375°. Remove casserole from refrigerator while oven heats. Bake as directed, increasing time as necessary until a knife inserted in the center comes out clean. Let stand 5-10 minutes before serving."
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+</RelativeLayout>

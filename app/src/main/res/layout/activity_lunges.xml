@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="false"
+    android:animationCache="false"
+    android:background="#D7F6C7"
+    tools:context=".Lunges">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="397dp"
+        android:layout_height="82dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="-2dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Lungs"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.003"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/lungs1"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="204dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text=" 1. Start by standing with your feet shoulder-width apart and arms down at your sides.
+ "
+        android:textAllCaps="true"
+        android:textColor="#090808"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="338dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="153dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text=" 2.Take a step forward with your right leg and bend your right knee as you do so."
+        android:textAllCaps="true"
+        android:textColor="#1A1919" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="406dp"
+        android:layout_height="33dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="102dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text=" 3.Push up off your right foot and return to the starting position."
+        android:textAlignment="viewStart"
+        android:textAllCaps="true"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="409dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="52dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="  4.Complete 3 sets of 10 reps."
+        android:textAllCaps="true"
+        android:textColor="#000000" />
+</RelativeLayout>
+
